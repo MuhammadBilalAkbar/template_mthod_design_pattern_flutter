@@ -189,7 +189,7 @@ class ConcreteOverridingHook extends Abstract {
           printing `OMG I am a hook!`
     - `con2.templateMethod();`
         - Its `abstractMethod()` prints `So, so boring...` and its `hookMethod()` is also being
-          being overridden by printing `I\'m an overridden hook method!`, so it will not invoke its
+          overridden by printing `I\'m an overridden hook method!`, so it will not invoke its
           base class `hookMethod()` method.
 
 ```dart 
